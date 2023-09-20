@@ -1,0 +1,25 @@
+DIFFERENCE BETWEEN HTTP1.1 AND HTTP 2
+             HTTP 1.1                                    HTTP 2
+
+     1)It was released IN 1997.                           1) It was relesed in 2015 bt IETF(Internet Engineering task force).
+     2)It works on the textual format.                    2) It works on the binary protocol.
+     3)It compresses data by itself.                      3) It uses HPACK for data compression.
+     4)It uses requests resource lnlining for             4) It uses PUSH frame by server that collects all multiple pages.
+       use getting mulitple pages.                        5) It interleaves muliple request/response in parellel without blockingon anyone.  
+     5)It can load one requests at a time.Hence         
+       one request per one TCP connection is possible. 
+     6)It cannot handle buffer overflow                   6)It includes measures to prevent buffer overflow vulnerabilities.
+        vulnerabilities due to the lack of 
+        sufficient measures.
+     7)The client sends a request to a server, and        7)A different underlying protocol called Secure Remote Protocol 2 (SRP2) 
+        the server sends a response back to the client.   establishes a secure connection between a client and a server. 
+     8)It does not include any in-built features, so the  8)HTTP 2 is designed to be more efficient and performant than HTTP 1.1 
+       performance it delivers is less efficient.           This is because HTTP 2 includes several features like multiplexing, binary protocol and header compression.
+              
+                                                    
+Objects in javascript:
+       objects are complex and each object may contain a combination of primitive data types as well as reference data-type.An object is reference data-type.
+       Variables that are assigned a reference value are given a reference or a pointer to the value.That reference or pointer points to the location in memeory 
+       where the object is stored. The variable dont actually store the value.Objects in javascript may be defined as unordered collection of related data,
+       of primitive or reference types,in the form of"key":value" pairs.These keys can be variables or functions are called as properties and methods,respectively,
+       in the context of an object.
